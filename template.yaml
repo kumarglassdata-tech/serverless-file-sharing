@@ -1,0 +1,82 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Serverless File Sharing Platform
+
+Globals:
+  Function:
+    Runtime: python3.12
+    Timeout: 30
+    MemorySize: 128
+    Environment:
+      Variables:
+        BUCKET_NAME: !Ref FileSharingBucket
+
+Resources:
+  FileSharingBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: my-file-sharing-bucket-amc
+
+  LambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal: {Service: lambda.amazonaws.com}
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: S3Access
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: [s3:PutObject, s3:GetObject]
+                Resource:
+                  - !GetAtt FileSharingBucket.Arn
+                  - !Sub "${FileSharingBucket.Arn}/*"
+
+  FileSharingApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      Name: my-file-sharing-api-amc
+      StageName: dev
+
+  UploadFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: UploadFunction
+      CodeUri: lambda/
+      Handler: UploadFunction.lambda_handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Events:
+        Upload:
+          Type: Api
+          Properties:
+            RestApiId: !Ref FileSharingApi
+            Path: /files
+            Method: post
+
+  DownloadFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: DownloadFunction
+      CodeUri: lambda/
+      Handler: DownloadFunction.lambda_handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Events:
+        Download:
+          Type: Api
+          Properties:
+            RestApiId: !Ref FileSharingApi
+            Path: /files
+            Method: get
+
+Outputs:
+  ApiEndpoint:
+    Value: !Sub "https://${FileSharingApi}.execute-api.${AWS::Region}.amazonaws.com/dev"
+  BucketName:
+    Value: !Ref FileSharingBucket
