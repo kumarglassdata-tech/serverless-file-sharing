@@ -16,6 +16,7 @@ def lambda_handler(event, context):
         if file_content is None:
             file_content = ""
 
+        print(f"[UPLOAD] key={file_name} bucket={BUCKET_NAME}")
         s3_client.put_object(
             Bucket=BUCKET_NAME,
             Key=file_name,
