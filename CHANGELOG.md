@@ -7,3 +7,6 @@
 ## 2026-07-03
 - update README deploy section with --parameter-overrides example
 
+## 2026-07-03
+- security: add Content-Security-Policy header to responses
+
