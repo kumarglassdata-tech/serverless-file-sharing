@@ -13,3 +13,6 @@
 ## 2026-07-04
 - add MAX_FILENAME_LENGTH constant (255 chars)
 
+## 2026-07-04
+- add pytest to requirements-dev.txt
+
