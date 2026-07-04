@@ -10,3 +10,6 @@
 ## 2026-07-03
 - security: add Content-Security-Policy header to responses
 
+## 2026-07-04
+- add MAX_FILENAME_LENGTH constant (255 chars)
+
