@@ -16,3 +16,6 @@
 ## 2026-07-04
 - add pytest to requirements-dev.txt
 
+## 2026-07-05
+- add request validation for missing fileName param at API GW level
+
