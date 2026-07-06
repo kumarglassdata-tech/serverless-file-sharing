@@ -19,3 +19,6 @@
 ## 2026-07-05
 - add request validation for missing fileName param at API GW level
 
+## 2026-07-06
+- extract _validate_filename helper in UploadFunction
+
