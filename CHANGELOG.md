@@ -22,3 +22,6 @@
 ## 2026-07-06
 - extract _validate_filename helper in UploadFunction
 
+## 2026-07-06
+- chore: normalise line endings to LF across lambda files
+
