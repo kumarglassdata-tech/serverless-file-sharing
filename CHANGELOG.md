@@ -25,3 +25,6 @@
 ## 2026-07-06
 - chore: normalise line endings to LF across lambda files
 
+## 2026-07-06
+- update samconfig.toml with us-east-1 as default region
+
