@@ -31,3 +31,6 @@
 ## 2026-07-07
 - docs: add project layout tree to README
 
+## 2026-07-07
+- docs: add step-by-step manual console deploy guide to README
+
