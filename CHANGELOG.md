@@ -28,3 +28,6 @@
 ## 2026-07-06
 - update samconfig.toml with us-east-1 as default region
 
+## 2026-07-07
+- docs: add project layout tree to README
+
