@@ -12,6 +12,8 @@ def lambda_handler(event, context):
         if not file_name:
             return _response(400, "Missing required query parameter: fileName")
 
+        if ".." in file_name or file_name.startswith("/"):
+            return _response(400, "Invalid fileName")
         file_content = event.get("body", "")
         if file_content is None:
             file_content = ""
