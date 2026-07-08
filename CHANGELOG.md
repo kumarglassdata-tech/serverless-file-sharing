@@ -34,3 +34,6 @@
 ## 2026-07-07
 - docs: add step-by-step manual console deploy guide to README
 
+## 2026-07-08
+- chore: remove debug print left in DownloadFunction
+
