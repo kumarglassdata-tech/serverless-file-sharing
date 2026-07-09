@@ -40,3 +40,6 @@
 ## 2026-07-09
 - security: validate Content-Type header on upload requests
 
+## 2026-07-09
+- add test: very long filename is rejected with 400
+
