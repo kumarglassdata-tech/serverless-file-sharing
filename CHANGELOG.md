@@ -43,3 +43,6 @@
 ## 2026-07-09
 - add test: very long filename is rejected with 400
 
+## 2026-07-09
+- perf: set MemorySize to 256 MB for faster cold starts
+
