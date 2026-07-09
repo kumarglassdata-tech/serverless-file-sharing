@@ -37,3 +37,6 @@
 ## 2026-07-08
 - chore: remove debug print left in DownloadFunction
 
+## 2026-07-09
+- security: validate Content-Type header on upload requests
+
