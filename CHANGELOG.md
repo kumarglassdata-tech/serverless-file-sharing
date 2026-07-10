@@ -46,3 +46,6 @@
 ## 2026-07-09
 - perf: set MemorySize to 256 MB for faster cold starts
 
+## 2026-07-10
+- update README with Postman collection description
+
