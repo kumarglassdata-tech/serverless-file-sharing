@@ -49,3 +49,6 @@
 ## 2026-07-10
 - update README with Postman collection description
 
+## 2026-07-10
+- add Content-Disposition header to DownloadFunction response
+
