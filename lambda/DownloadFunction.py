@@ -13,6 +13,8 @@ def lambda_handler(event, context):
             return _response(400, "Missing required query parameter: fileName")
 
         print(f"[DOWNLOAD] key={file_name} bucket={BUCKET_NAME}")
+        if ".." in file_name or file_name.startswith("/"):
+            return _response(400, "Invalid fileName")
         s3_response = s3_client.get_object(Bucket=BUCKET_NAME, Key=file_name)
         file_content = s3_response["Body"].read().decode("utf-8")
 
