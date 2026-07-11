@@ -52,3 +52,6 @@
 ## 2026-07-10
 - add Content-Disposition header to DownloadFunction response
 
+## 2026-07-11
+- fix: DownloadFunction should return 404 not 500 on missing key
+
