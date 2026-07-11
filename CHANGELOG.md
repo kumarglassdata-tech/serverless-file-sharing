@@ -55,3 +55,6 @@
 ## 2026-07-11
 - fix: DownloadFunction should return 404 not 500 on missing key
 
+## 2026-07-11
+- docs: add API reference table to README
+
