@@ -58,3 +58,6 @@
 ## 2026-07-11
 - docs: add API reference table to README
 
+## 2026-07-11
+- fix: return correct statusCode from _response helper
+
