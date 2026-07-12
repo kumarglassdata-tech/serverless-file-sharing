@@ -64,3 +64,6 @@
 ## 2026-07-12
 - add CORS headers to all error responses
 
+## 2026-07-12
+- fix: encode file content as UTF-8 before S3 put
+
