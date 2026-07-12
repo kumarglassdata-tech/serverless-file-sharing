@@ -61,3 +61,6 @@
 ## 2026-07-11
 - fix: return correct statusCode from _response helper
 
+## 2026-07-12
+- add CORS headers to all error responses
+
