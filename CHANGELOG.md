@@ -73,3 +73,6 @@
 ## 2026-07-13
 - add path traversal validation to DownloadFunction
 
+## 2026-07-13
+- security: add X-Content-Type-Options nosniff header
+
