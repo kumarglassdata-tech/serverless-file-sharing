@@ -67,3 +67,6 @@
 ## 2026-07-12
 - fix: encode file content as UTF-8 before S3 put
 
+## 2026-07-13
+- docs: add CHANGELOG entry for July release
+
