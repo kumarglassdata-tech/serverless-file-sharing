@@ -70,3 +70,6 @@
 ## 2026-07-13
 - docs: add CHANGELOG entry for July release
 
+## 2026-07-13
+- add path traversal validation to DownloadFunction
+
