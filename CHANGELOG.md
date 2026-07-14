@@ -76,3 +76,6 @@
 ## 2026-07-13
 - security: add X-Content-Type-Options nosniff header
 
+## 2026-07-14
+- document environment variables in README
+
