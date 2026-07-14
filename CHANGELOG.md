@@ -79,3 +79,6 @@
 ## 2026-07-14
 - document environment variables in README
 
+## 2026-07-14
+- add CloudWatch log retention policy (14 days) to template
+
