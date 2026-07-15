@@ -85,3 +85,6 @@
 ## 2026-07-15
 - add input sanitization for special characters in fileName
 
+## 2026-07-15
+- add path traversal validation to UploadFunction
+
