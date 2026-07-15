@@ -88,3 +88,6 @@
 ## 2026-07-15
 - add path traversal validation to UploadFunction
 
+## 2026-07-15
+- chore: add Tags to S3 bucket and Lambda functions
+
