@@ -82,3 +82,6 @@
 ## 2026-07-14
 - add CloudWatch log retention policy (14 days) to template
 
+## 2026-07-15
+- add input sanitization for special characters in fileName
+
