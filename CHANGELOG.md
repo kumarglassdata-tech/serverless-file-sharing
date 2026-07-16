@@ -94,3 +94,6 @@
 ## 2026-07-16
 - add IAM policy boundary comment explaining least-privilege
 
+## 2026-07-16
+- enable AES-256 server-side encryption on S3 bucket
+
