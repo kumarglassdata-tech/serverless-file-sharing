@@ -91,3 +91,6 @@
 ## 2026-07-15
 - chore: add Tags to S3 bucket and Lambda functions
 
+## 2026-07-16
+- add IAM policy boundary comment explaining least-privilege
+
