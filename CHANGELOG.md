@@ -97,3 +97,6 @@
 ## 2026-07-16
 - enable AES-256 server-side encryption on S3 bucket
 
+## 2026-07-17
+- add CONTRIBUTING.md with PR and issue guidelines
+
