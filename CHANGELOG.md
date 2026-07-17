@@ -100,3 +100,6 @@
 ## 2026-07-17
 - add CONTRIBUTING.md with PR and issue guidelines
 
+## 2026-07-17
+- add structured logging to DownloadFunction for CloudWatch visibility
+
