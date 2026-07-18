@@ -109,3 +109,6 @@
 ## 2026-07-18
 - add X-File-Name header to DownloadFunction response
 
+## 2026-07-18
+- add test: upload and download roundtrip integration scenario
+
