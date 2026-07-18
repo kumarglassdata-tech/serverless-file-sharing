@@ -103,3 +103,6 @@
 ## 2026-07-17
 - add structured logging to DownloadFunction for CloudWatch visibility
 
+## 2026-07-18
+- add .editorconfig for consistent indentation across editors
+
