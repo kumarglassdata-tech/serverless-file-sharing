@@ -106,3 +106,6 @@
 ## 2026-07-18
 - add .editorconfig for consistent indentation across editors
 
+## 2026-07-18
+- add X-File-Name header to DownloadFunction response
+
