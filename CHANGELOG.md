@@ -118,3 +118,6 @@
 ## 2026-07-19
 - add Makefile with build, deploy, test and clean targets
 
+## 2026-07-19
+- enable bucket versioning in template.yaml
+
