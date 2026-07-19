@@ -115,3 +115,6 @@
 ## 2026-07-19
 - add Lambda reserved concurrency setting
 
+## 2026-07-19
+- add Makefile with build, deploy, test and clean targets
+
