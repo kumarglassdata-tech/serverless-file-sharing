@@ -112,3 +112,6 @@
 ## 2026-07-18
 - add test: upload and download roundtrip integration scenario
 
+## 2026-07-19
+- add Lambda reserved concurrency setting
+
