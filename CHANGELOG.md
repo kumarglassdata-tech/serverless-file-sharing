@@ -124,3 +124,6 @@
 ## 2026-07-20
 - add S3 lifecycle rule to expire objects after 90 days
 
+## 2026-07-20
+- add type hints to DownloadFunction handler
+
