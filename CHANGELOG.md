@@ -121,3 +121,6 @@
 ## 2026-07-19
 - enable bucket versioning in template.yaml
 
+## 2026-07-20
+- add S3 lifecycle rule to expire objects after 90 days
+
