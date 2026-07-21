@@ -130,3 +130,6 @@
 ## 2026-07-21
 - add events/download_event.json for local Lambda testing
 
+## 2026-07-21
+- add type hints to UploadFunction handler
+
