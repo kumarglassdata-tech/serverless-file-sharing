@@ -8,3 +8,6 @@ All notable changes to this project.
 ## 2026-07-23
 - refactor: extract S3 client initialisation into helper
 
+## 2026-07-23
+- add requirements-dev.txt separating test deps from runtime
+
