@@ -11,3 +11,6 @@ All notable changes to this project.
 ## 2026-07-23
 - add requirements-dev.txt separating test deps from runtime
 
+## 2026-07-23
+- fix: strip leading slash from fileName before S3 key lookup
+
