@@ -17,3 +17,6 @@ All notable changes to this project.
 ## 2026-07-24
 - add samconfig.toml with default deploy parameters
 
+## 2026-07-24
+- add architecture diagram to README
+
