@@ -14,3 +14,6 @@ All notable changes to this project.
 ## 2026-07-23
 - fix: strip leading slash from fileName before S3 key lookup
 
+## 2026-07-24
+- add samconfig.toml with default deploy parameters
+
