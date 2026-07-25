@@ -20,3 +20,6 @@ All notable changes to this project.
 ## 2026-07-24
 - add architecture diagram to README
 
+## 2026-07-25
+- add test: empty body upload should succeed with empty file
+
