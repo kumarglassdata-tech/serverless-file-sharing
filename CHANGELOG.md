@@ -23,3 +23,6 @@ All notable changes to this project.
 ## 2026-07-25
 - add test: empty body upload should succeed with empty file
 
+## 2026-07-25
+- security: reject fileName with null bytes
+
