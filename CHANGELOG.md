@@ -26,3 +26,6 @@ All notable changes to this project.
 ## 2026-07-25
 - security: reject fileName with null bytes
 
+## 2026-07-25
+- add events/upload_event.json for local Lambda testing
+
