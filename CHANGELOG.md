@@ -29,3 +29,6 @@ All notable changes to this project.
 ## 2026-07-25
 - add events/upload_event.json for local Lambda testing
 
+## 2026-07-26
+- docs: add CHANGELOG entry for August improvements
+
