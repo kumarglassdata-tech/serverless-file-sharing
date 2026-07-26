@@ -32,3 +32,6 @@ All notable changes to this project.
 ## 2026-07-26
 - docs: add CHANGELOG entry for August improvements
 
+## 2026-07-26
+- refactor: move BUCKET_NAME to module-level constant
+
