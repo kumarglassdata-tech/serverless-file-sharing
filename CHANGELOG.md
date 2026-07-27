@@ -44,3 +44,6 @@ All notable changes to this project.
 ## 2026-07-27
 - docs: add CHANGELOG entry for September hardening
 
+## 2026-07-27
+- docs: add note about 10 MB API Gateway body limit
+
