@@ -41,3 +41,6 @@ All notable changes to this project.
 ## 2026-07-27
 - chore: add Lambda description fields to template
 
+## 2026-07-27
+- docs: add CHANGELOG entry for September hardening
+
