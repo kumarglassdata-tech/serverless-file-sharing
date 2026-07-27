@@ -38,3 +38,6 @@ All notable changes to this project.
 ## 2026-07-26
 - pin boto3 to >=1.28.0 in requirements.txt
 
+## 2026-07-27
+- chore: add Lambda description fields to template
+
