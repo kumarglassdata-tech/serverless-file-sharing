@@ -47,3 +47,6 @@ All notable changes to this project.
 ## 2026-07-27
 - docs: add note about 10 MB API Gateway body limit
 
+## 2026-07-28
+- perf: reduce Lambda timeout to 15s (upload) and 10s (download)
+
