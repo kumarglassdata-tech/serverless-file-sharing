@@ -1,0 +1,10 @@
+{
+  "httpMethod": "POST",
+  "queryStringParameters": {
+    "fileName": "hello.txt"
+  },
+  "body": "Hello World from A Monk in Cloud!",
+  "headers": {
+    "Content-Type": "text/plain"
+  }
+}
