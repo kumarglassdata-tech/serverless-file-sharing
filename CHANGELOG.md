@@ -50,3 +50,6 @@ All notable changes to this project.
 ## 2026-07-28
 - perf: reduce Lambda timeout to 15s (upload) and 10s (download)
 
+## 2026-07-28
+- add file extension allowlist to UploadFunction
+
