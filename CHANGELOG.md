@@ -56,3 +56,6 @@ All notable changes to this project.
 ## 2026-07-29
 - fix: handle None body in UploadFunction without raising
 
+## 2026-07-29
+- block all public S3 access in CloudFormation config
+
