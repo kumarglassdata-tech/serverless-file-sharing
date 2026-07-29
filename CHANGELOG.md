@@ -59,3 +59,6 @@ All notable changes to this project.
 ## 2026-07-29
 - block all public S3 access in CloudFormation config
 
+## 2026-07-29
+- improve README with troubleshooting section
+
