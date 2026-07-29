@@ -53,3 +53,6 @@ All notable changes to this project.
 ## 2026-07-28
 - add file extension allowlist to UploadFunction
 
+## 2026-07-29
+- fix: handle None body in UploadFunction without raising
+
