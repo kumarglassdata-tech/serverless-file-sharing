@@ -68,3 +68,6 @@ All notable changes to this project.
 ## 2026-07-30
 - add structured logging to UploadFunction for CloudWatch visibility
 
+## 2026-07-30
+- refactor: consolidate _response helper across both functions
+
