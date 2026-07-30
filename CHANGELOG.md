@@ -62,3 +62,6 @@ All notable changes to this project.
 ## 2026-07-29
 - improve README with troubleshooting section
 
+## 2026-07-30
+- improve error messages to include context
+
