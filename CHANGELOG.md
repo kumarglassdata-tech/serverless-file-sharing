@@ -74,3 +74,6 @@ All notable changes to this project.
 ## 2026-07-31
 - chore: bump Python runtime to 3.12 in template.yaml
 
+## 2026-07-31
+- docs: add security section to README
+
