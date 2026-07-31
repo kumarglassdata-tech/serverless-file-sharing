@@ -71,3 +71,6 @@ All notable changes to this project.
 ## 2026-07-30
 - refactor: consolidate _response helper across both functions
 
+## 2026-07-31
+- chore: bump Python runtime to 3.12 in template.yaml
+
