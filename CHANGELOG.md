@@ -80,3 +80,6 @@ All notable changes to this project.
 ## 2026-08-01
 - docs: update CHANGELOG for October patch release
 
+## 2026-08-01
+- fix: DownloadFunction should not expose raw S3 error to client
+
