@@ -77,3 +77,6 @@ All notable changes to this project.
 ## 2026-07-31
 - docs: add security section to README
 
+## 2026-08-01
+- docs: update CHANGELOG for October patch release
+
