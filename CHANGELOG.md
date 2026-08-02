@@ -86,3 +86,6 @@ All notable changes to this project.
 ## 2026-08-02
 - perf: reuse boto3 S3 client across Lambda invocations
 
+## 2026-08-02
+- add test: DownloadFunction returns correct Content-Type
+
