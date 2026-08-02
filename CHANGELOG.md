@@ -83,3 +83,6 @@ All notable changes to this project.
 ## 2026-08-01
 - fix: DownloadFunction should not expose raw S3 error to client
 
+## 2026-08-02
+- perf: reuse boto3 S3 client across Lambda invocations
+
