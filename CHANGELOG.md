@@ -89,3 +89,6 @@ All notable changes to this project.
 ## 2026-08-02
 - add test: DownloadFunction returns correct Content-Type
 
+## 2026-08-03
+- add 100 MB file size guard in UploadFunction
+
