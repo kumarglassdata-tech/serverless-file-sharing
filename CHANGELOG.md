@@ -95,3 +95,6 @@ All notable changes to this project.
 ## 2026-08-03
 - docs: clarify fileName query param is required in README
 
+## 2026-08-03
+- docs: add badge for Python version to README
+
