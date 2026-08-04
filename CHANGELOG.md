@@ -98,3 +98,6 @@ All notable changes to this project.
 ## 2026-08-03
 - docs: add badge for Python version to README
 
+## 2026-08-04
+- improve API Gateway 4xx and 5xx response shapes
+
