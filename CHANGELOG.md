@@ -104,3 +104,6 @@ All notable changes to this project.
 ## 2026-08-05
 - add curl examples for each error scenario to README
 
+## 2026-08-05
+- chore: housekeeping 2026-08-05
+
