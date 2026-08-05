@@ -101,3 +101,6 @@ All notable changes to this project.
 ## 2026-08-04
 - improve API Gateway 4xx and 5xx response shapes
 
+## 2026-08-05
+- add curl examples for each error scenario to README
+
