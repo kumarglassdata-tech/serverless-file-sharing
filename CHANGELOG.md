@@ -299,3 +299,6 @@ All notable changes to this project.
 ## 2026-09-01
 - chore: housekeeping 2026-09-01
 
+## 2026-09-02
+- chore: housekeeping 2026-09-02
+
