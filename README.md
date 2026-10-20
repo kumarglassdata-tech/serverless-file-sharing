@@ -32,3 +32,12 @@ Download:
 ```bash
 curl "https://<api>.execute-api.<region>.amazonaws.com/dev/files?fileName=hello.txt"
 ```
+
+## Troubleshooting
+
+| Error | Cause | Fix |
+|---|---|---|
+| `403 Forbidden` | IAM role missing S3 permission | Check `FileSharingLambdaRole` policy |
+| `400 Missing fileName` | Query param absent | Add `?fileName=yourfile.txt` to the URL |
+| `400 Invalid fileName` | Path traversal attempt | Remove `..` or leading `/` from fileName |
+| `500 Error uploading` | S3 bucket not found | Verify `BUCKET_NAME` env var matches deployed bucket |
